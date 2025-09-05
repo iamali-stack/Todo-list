@@ -1,5 +1,6 @@
 # 📝 Todo List App
-<img width="736" height="672" alt="Screenshot 2025-09-04 at 11 28 34 PM" src="https://github.com/user-attachments/assets/288da896-c22e-45c2-9ae0-2e97c0e777f2" />
+
+<img width="795" height="663" alt="Screenshot 2025-09-05 at 3 45 37 PM" src="https://github.com/user-attachments/assets/a8478a93-b0ba-4679-977f-4cb35dee7c56" />
 
 
 A modern, responsive todo list application built with React and Vite. Stay organized and track your tasks with a clean, intuitive interface.
