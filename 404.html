@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is already in place
+      // If the URL doesn't contain a hash, it redirects with a hash
+      // Otherwise, it reloads the page without the hash
+      (function() {
+        var redirect = sessionStorage.getItem('redirect');
+        if (redirect) {
+          sessionStorage.removeItem('redirect');
+          window.location.replace(redirect);
+        }
+      })();
+    </script>
+    <script>
+      // If you don't want to use a hash, you can use the following script.
+      // This script will redirect to the base URL (index.html) and let React handle the routing.
+      var path = window.location.pathname;
+      var base = "/Todo-list/"; // Replace with your repo name
+      if (path.startsWith(base)) {
+        path = path.substring(base.length);
+      }
+      var redirect = base + '#/' + path;
+      sessionStorage.setItem('redirect', redirect);
+      window.location.replace(base + 'index.html');
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
